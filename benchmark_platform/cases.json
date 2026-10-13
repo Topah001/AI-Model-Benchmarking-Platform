@@ -1,0 +1,19 @@
+{
+  "benchmark_version": "sentiment-mini-1.0",
+  "task": "three-way sentiment classification",
+  "labels": ["positive", "negative", "neutral"],
+  "cases": [
+    {"case_id": "sentiment-01", "text": "I love this excellent and delightful result.", "expected": "positive"},
+    {"case_id": "sentiment-02", "text": "The team did a wonderful job; I am very happy.", "expected": "positive"},
+    {"case_id": "sentiment-03", "text": "Brilliant experience, strongly recommend it.", "expected": "positive"},
+    {"case_id": "sentiment-04", "text": "That was a fantastic, enjoyable surprise.", "expected": "positive"},
+    {"case_id": "sentiment-05", "text": "I hate this awful and disappointing result.", "expected": "negative"},
+    {"case_id": "sentiment-06", "text": "The service was terrible; I am very unhappy.", "expected": "negative"},
+    {"case_id": "sentiment-07", "text": "A dreadful experience; I strongly regret it.", "expected": "negative"},
+    {"case_id": "sentiment-08", "text": "This is broken, frustrating, and unpleasant.", "expected": "negative"},
+    {"case_id": "sentiment-09", "text": "The package arrived on Tuesday.", "expected": "neutral"},
+    {"case_id": "sentiment-10", "text": "The report contains twelve pages.", "expected": "neutral"},
+    {"case_id": "sentiment-11", "text": "The meeting starts at three o'clock.", "expected": "neutral"},
+    {"case_id": "sentiment-12", "text": "A blue folder is on the desk.", "expected": "neutral"}
+  ]
+}

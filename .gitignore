@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+predictions*.json
+results*.json
+*.safetensors
+*.gguf
+*.onnx
+checkpoints/
+models/
